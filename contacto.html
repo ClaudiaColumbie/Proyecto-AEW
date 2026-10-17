@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuba Tours - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Cuba Tours</a>
+            <button class="menu-toggle">☰</button>
+            <ul class="menu-principal">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="tiene-submenu">
+                    <a href="destinos.html">Destinos</a>
+                    <ul class="submenu">
+                        <li><a href="destino-la-habana.html">La Habana</a></li>
+                        <li><a href="destino-varadero.html">Varadero</a></li>
+                        <li><a href="destino-cayo-coco.html">Cayo Coco</a></li>
+                        <li><a href="destino-holguin.html">Holguín</a></li>
+                        <li><a href="destino-santiago.html">Santiago de Cuba</a></li>
+                    </ul>
+                </li>
+                <li><a href="circuitos.html">Circuitos</a></li>
+                <li><a href="actividades.html">Actividades</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Contacto</h1>
+        <p class="intro">Envíanos una consulta sobre los destinos y excursiones.</p>
+        <section class="seccion"><h2>Formulario de contacto</h2>
+<form class="formulario" action="mailto:contacto@ejemplo.com" method="post" enctype="text/plain">
+<label for="nombre">Nombre</label><input id="nombre" name="nombre" type="text" required>
+<label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" required>
+<label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+<button type="submit">Enviar consulta</button>
+</form><p class="nota">Formulario de demostración: sustituye contacto@ejemplo.com por un correo real. El envío utiliza la aplicación de correo del visitante, no un servidor.</p></section>
+    </main>
+    <footer><p>&copy; 2026 Viajes Cuba. Proyecto académico.</p></footer>
+</body>
+</html>
